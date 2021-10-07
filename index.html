@@ -20,33 +20,49 @@
 
 <body>
 <!--  Navbar -->
-<nav>
-    <a class="logo" href="index.html"></a>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Consultation Online</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Veneers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Testimonial</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pay Deposit</a>
-          </li>
-      </ul>
+<nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <a class="logo navbar-brand" href="index.html"><img src="../estilos/imagenes/logo/perfect\ smile\ logo.png"
+                alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Consultation Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Veneers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pay Deposit</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 <div class="simuladorslider"></div>
 
 
 <!-- tarjetas circulares  -->
+
 <div class="tarjetas">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="..." alt="Card image cap">
