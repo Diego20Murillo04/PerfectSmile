@@ -17,7 +17,7 @@ html {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* navbar */
 nav{
     width: 100%;
     height: 7vh;
@@ -48,6 +48,8 @@ nav{
     background-size: contain;
 }
 
+/* divisiones */
+
 .divisiones{
     width: 100%;
     height: 350px;
@@ -55,8 +57,28 @@ nav{
     border-top:solid black ;
 }
 
+/* cards */
+.tarjetas{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* footer*/ 
 .footer{
     width: 100%;
-    height: 150px;
+    height: 50px;
     background: var(--morado);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: var(--blanco);
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--azul);
 }
