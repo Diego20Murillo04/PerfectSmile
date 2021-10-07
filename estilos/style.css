@@ -48,3 +48,15 @@ nav{
     background-size: contain;
 }
 
+.divisiones{
+    width: 100%;
+    height: 350px;
+    background: var(--blanco);
+    border-top:solid black ;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background: var(--morado);
+}
