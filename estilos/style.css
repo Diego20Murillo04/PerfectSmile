@@ -7,7 +7,7 @@
 :root {
     --azul: #0089CE;
     --blanco: #feffff;
-    --morado: #31348E;
+    --morado: #202b70;
     --negro: #000000;
     --amarillo: #E2D556;
     --gris: #757575;
@@ -41,7 +41,6 @@ nav{
     height: 100%;
     text-decoration: none;
     color: var(--negro);
-    margin-left: 10px;
     background-image: url(../estilos/imagenes/logo/perfect\ smile\ logo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -74,10 +73,25 @@ nav{
     align-items: center;
     background:var(--morado);
 }
-
 .card-img-top{
-    height: 50%;
-    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--morado);
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background:var(--blanco);
+}
+
+.card-text , .card-body, .card{
+    color: var(--blanco);
+    background: var(--morado);
+    border: none;
+    box-shadow:none;
 }
 
 
