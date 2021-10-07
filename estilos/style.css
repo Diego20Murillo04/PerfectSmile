@@ -17,22 +17,24 @@ html {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* navbar */
-nav{
+nav {
     width: 100%;
     height: 7vh;
-    background-color:var(--blanco);
+    background-color: var(--blanco);
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     font-size: 0.85rem;
 
 }
+
 .nav-item a {
     color: var(--negro);
 }
 
-.navbar-nav .active {
+.nav .active {
     color: var(--azul);
 }
 
@@ -47,7 +49,7 @@ nav{
     background-size: contain;
 }
 
-.simuladorslider{
+.simuladorslider {
     width: 100%;
     height: 100vh;
     background-image: url(../estilos/imagenes/banner3.png);
@@ -55,58 +57,62 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* divisiones */
 
-.divisiones{
+.divisiones {
     width: 100%;
     height: 350px;
     background: var(--blanco);
-    border-top:solid black ;
+    border-top: solid black;
 }
 
 /* cards */
-.tarjetas{
+.tarjetas {
     width: 100%;
     height: 300px;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
-    background:var(--morado);
+    background: var(--morado);
 }
-.card-img-top{
+
+.card-img-top {
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--morado);
 }
 
-.circle{
+.circle {
     height: 150px;
     width: 150px;
     border-radius: 150px;
-    background:var(--blanco);
+    background: var(--blanco);
 }
 
-.card-text , .card-body, .card{
+.card-text,
+.card-body,
+.card {
     color: var(--blanco);
     background: var(--morado);
     border: none;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 
-/* footer*/ 
-.footer{
+/* footer*/
+.footer {
     width: 100%;
     height: 50px;
     background: var(--morado);
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     color: var(--blanco);
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: var(--azul);
 }
