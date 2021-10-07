@@ -32,7 +32,7 @@ nav{
     color: var(--negro);
 }
 
-.nav .active{
+.navbar-nav .active {
     color: var(--azul);
 }
 
