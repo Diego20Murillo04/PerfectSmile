@@ -17,7 +17,7 @@ html {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* navbar */
 nav{
     width: 100%;
     height: 7vh;
@@ -48,6 +48,8 @@ nav{
     background-size: contain;
 }
 
+/* divisiones */
+
 .divisiones{
     width: 100%;
     height: 350px;
@@ -55,6 +57,8 @@ nav{
     border-top:solid black ;
 }
 
+
+/* footer*/ 
 .footer{
     width: 100%;
     height: 50px;
