@@ -110,6 +110,10 @@ nav {
     background: var(--morado);
     text-align: center;
 }
+/* ----------- */
+/*   carrusel  */
+
+
 .carruseldiv{
     height: 600px;
     width: 100%;
@@ -268,3 +272,5 @@ nav {
     color: var(--azul);
     margin:0 10px 0 10px;
 }
+
+/* https://codepen.io/gabogabriel/pen/LjBWGX */
