@@ -304,8 +304,32 @@ nav {
     }
     .titulo{
         height: 100px;
+        margin-left: 50px;
     }
     .titulo p {
         font-size: 1.3rem;
     }
+
+    .productdisclaimer{
+        padding: 50px 0 0 50px;
+    }
+}
+
+h2{
+    font-size: 1.5rem;
+    color: var(--morado);
+}
+
+.pblack{
+    font-size: 0.9rem;
+    color:var(--gris)
+}
+
+.productdisclaimer{
+    
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    padding:50px 0 0 150px;
+    margin: 0;
 }
