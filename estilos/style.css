@@ -169,8 +169,12 @@ nav {
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
+<<<<<<< Updated upstream
     flex-wrap: wrap;
     background: var(--morado);
+=======
+    background: var(--blanco);
+>>>>>>> Stashed changes
 }
 
 .formulario {
@@ -232,4 +236,5 @@ nav {
 .footer a {
     text-decoration: none;
     color: var(--azul);
+    margin:0 10px 0 10px;
 }
