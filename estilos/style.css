@@ -191,6 +191,7 @@ nav {
 }
 
 .formulario {
+    height: 600px;
     width: 46%;
     display: flex;
     justify-content: center;
@@ -201,6 +202,22 @@ nav {
 .formulario #floatingTextarea2 {
     height: 100px;
 }
+
+.mapa{
+    height: 80%;
+    width: 80%;
+    border:var(--morado) solid 2px;
+}
+
+/*api de instagram*/
+
+.api-instagram{
+    width: 100%;
+    height: fit-content;
+}
+
+
+
 
 /* footer*/
 .footer {
