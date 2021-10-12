@@ -47,15 +47,15 @@ nav {
 
 .simuladorslider {
     width: 100%;
-    height: 100vh;
-    background-image: url(../estilos/imagenes/banner3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
+    height: auto;
     margin-top: 36px;
 }
 
-.offcanvas-title{
+.carousel {
+    height: 100%;
+}
+
+.offcanvas-title {
     background-image: url(../estilos/imagenes/logo/perfect\ smile\ logo.PNG);
     background-position: center;
     background-repeat: no-repeat;
@@ -110,56 +110,53 @@ nav {
     background: var(--morado);
     text-align: center;
 }
+
 /* ----------- */
 /*   carrusel  */
+/*-------------*/
 
 
-.carruseldiv{
-    height: 600px;
+.section {
+    height: 1000px;
     width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.carruselpadre{
-    height: 100%;
-    width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CarouselSection {
+    height: 48%;
+    width: 90%;
+    display: flex;
     align-items: center;
 
 }
 
-.carrusel{
-    width: 70%;
-    height: 80%;
+.carrusel {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
-    background-image: url(../estilos/imagenes/antesdespues.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: var(--amarillo);
     border-radius: 5px;
 }
 
-.texto{
-    margin-top: 60px;
-    min-width: 513px;
+.TextSection {
+    height: 48%;
+    width: 90%;
+    display: flex;
+    align-items: center;
 }
 
-.texto p{
+.text p {
     text-align: left;
-    font-size: 12px;
+    font-size: 1rem;
     color: var(--negro);
     margin-left: 50px;
     padding: 0px 0px 9.6px;
     margin: 0;
-}
-.carruselbro{
-    height: 100%;
-    width: 50%;
 }
 
 /*--------------*/
@@ -207,15 +204,15 @@ nav {
     height: 100px;
 }
 
-.mapa{
+.mapa {
     height: 80%;
     width: 80%;
-    border:var(--morado) solid 2px;
+    border: var(--morado) solid 2px;
 }
 
 /*api de instagram*/
 
-.api-instagram{
+.api-instagram {
     width: 100%;
     height: fit-content;
 }
@@ -229,37 +226,43 @@ nav {
     height: 200px;
     height: auto;
     background: var(--morado);
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     color: var(--blanco);
 }
-.footerup{
+
+.footerup {
     height: 70%;
     width: 100%;
-   display: inline-flex;
-   justify-content: space-evenly;
-   align-items: center;
-   text-align: center;
-   flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
-.footerup p{
-    margin-top:10px;
+
+.footerup p {
+    margin-top: 10px;
 }
-.footerup a i{
+
+.footerup a i {
     text-decoration: none;
     color: var(--blanco);
 }
+
 .footerup a i:hover {
     font-size: 20px;
     transition: 0.5s;
 }
+
 .footerup div {
     padding: 2rem;
 }
-.footerdown{
-    width:100%;
+
+.footerdown {
+    width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
@@ -270,7 +273,5 @@ nav {
 .footer a {
     text-decoration: none;
     color: var(--azul);
-    margin:0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
-
-/* https://codepen.io/gabogabriel/pen/LjBWGX */
