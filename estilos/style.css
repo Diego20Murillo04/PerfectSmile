@@ -169,12 +169,8 @@ nav {
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
-<<<<<<< Updated upstream
     flex-wrap: wrap;
-    background: var(--morado);
-=======
-    background: var(--blanco);
->>>>>>> Stashed changes
+    background:var(--blanco);
 }
 
 .formulario {
@@ -188,6 +184,17 @@ nav {
 .formulario #floatingTextarea2 {
     height: 100px;
 }
+
+
+/*api de instagram*/
+
+.api-instagram{
+    width: 100%;
+    height: fit-content;
+}
+
+
+
 
 /* footer*/
 .footer {
