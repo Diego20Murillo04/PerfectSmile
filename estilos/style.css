@@ -139,6 +139,22 @@ nav {
     border-radius: 5px;
 }
 
+.texto{
+    margin-top: 60px;
+}
+
+.texto p{
+    text-align: left;
+    font-size: 0.8rem;
+    color: var(--negro);
+    margin-left: 50px;
+    
+}
+.carruselbro{
+    height: 100%;
+    width: 50%;
+}
+
 /*--------------*/
 /*  Formulario  */
 /*--------------*/
@@ -161,22 +177,6 @@ nav {
 
 .formulario #floatingTextarea2 {
     height: 100px;
-}
-
-.texto{
-    margin-top: 60px;
-}
-
-.texto p{
-    text-align: left;
-    font-size: 0.8rem;
-    color: var(--negro);
-    margin-left: 50px;
-    
-}
-.carruselbro{
-    height: 100%;
-    width: 50%;
 }
 
 /* footer*/
