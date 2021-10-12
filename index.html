@@ -149,21 +149,31 @@
                         <label for="floatingInput">Full Name</label>
                     </div>
 
+                    <div class="form-floating col-12">
+                        <input type="email" name="email" class="form-control" id="floatingInput"
+                            placeholder="email@example.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+
+                    <div class="form-floating col-md-6">
+                        <input type="text" name="subject" class="form-control" id="floatingInput"
+                            placeholder="subject">
+                        <label for="floatingInput">Subject</label>
+                    </div>
+
                     <div class="form-floating col-md-6">
                         <input type="number" name="number" class="form-control" id="floatingInput"
                             placeholder="Contact number">
                         <label for="floatingInput">Contact number</label>
                     </div>
 
-                    <div class="form-floating col-md-6">
-                        <input type="email" name="email" class="form-control" id="floatingInput"
-                            placeholder="email@example.com">
-                        <label for="floatingInput">Email</label>
-                    </div>
                     <div class="form-floating col-12">
-                        <textarea name="comment" class="form-control" id="floatingTextarea2"
-                            placeholder="Leave a comment here" cols="30" rows="10"></textarea>
-                        <label for="floatingTextarea2">Comment</label>
+                        <textarea name="message" class="form-control" id="floatingTextarea2"
+                            placeholder="Leave a message here" cols="30" rows="10"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-primary">Send</button>
                     </div>
                 </div>
             </form>
