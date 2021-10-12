@@ -162,6 +162,25 @@ nav {
 /*  Formulario  */
 /*--------------*/
 
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h5 {
+    color: var(--morado);
+    font-size: 3rem;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+}
+
+.hr hr {
+    width: 75%;
+}
+
 .ContactUs {
     min-height: 350px;
     width: 100%;
