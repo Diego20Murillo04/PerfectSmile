@@ -111,6 +111,25 @@ nav {
     text-align: center;
 }
 
+/*--------------*/
+/*  Formulario  */
+/*--------------*/
+
+.ContactUs {
+    height: 350px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.formulario {
+    width: 46%;
+}
+
+.formulario #floatingTextarea2 {
+    height: 100px;
+}
+
 
 /* footer*/
 .footer {
