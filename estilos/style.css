@@ -105,6 +105,38 @@ nav {
     width: 150px;
     border-radius: 150px;
     background: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle1{
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    background-image: url(../estilos/imagenes/circle1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.circle2{
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    background-image: url(../estilos/imagenes/circle2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.circle3{
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    background-image: url(../estilos/imagenes/circle3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .card {
@@ -210,6 +242,10 @@ nav {
     height: 100px;
 }
 
+.btn{
+    background-color: var(--morado);
+}
+
 
 
 .mapa {
@@ -295,6 +331,16 @@ nav {
     margin: 0 10px 0 10px;
 }
 
+.copy{
+    margin-bottom: 20px;
+}
+.letrapequeña{
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--blanco);
+    padding: 0 200px 0 200px ;
+}
+
 /*CONSULTATION ONLINE*/
 
 .titulo{
@@ -332,6 +378,9 @@ nav {
     .productdisclaimer{
         padding: 50px 0 0 50px;
     }
+    .letrapequeña{
+        padding: 5px;
+    }
 }
 
 h2{
@@ -352,3 +401,4 @@ h2{
     padding:50px 0 50px 150px;
     margin: 0;
 }
+
