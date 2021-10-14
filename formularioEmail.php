@@ -8,7 +8,7 @@
     <title>Perfect Smile</title>
     <script src="https://kit.fontawesome.com/0eaecc8c33.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../PerfectSmile/estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../PerfectSmile/estilos/style.css">
+    <link rel="stylesheet" href="./estilos/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/zcb5jci.css">
 
 
@@ -120,7 +120,7 @@
     <!--  Navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container-fluid">
-            <a class="logo navbar-brand" href="index.html"><img src="../estilos/imagenes/logo/perfect\ smile\ logo.png"
+            <a class="logo navbar-brand" href="index.html"><img src="./estilos/imagenes/logo/perfect-logo.png"
                     alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
@@ -134,22 +134,14 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3 nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Consultation Online</a>
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="#">Veneers</a>
+                            <a class="nav-link active" href="./formularioEmail.php">Consultation
+                                Online</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonial</a>
-                        </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html#ContactUs">Contact Us</a>
+                            <a class="nav-link" href="#ContactUs">Contact Us</a>
                         </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>-->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pay Deposit</a>
                         </li>
@@ -158,6 +150,7 @@
             </div>
         </div>
     </nav>
+
     <div class="titulo">
         <p>Consultation Online</p>
     </div>
@@ -288,37 +281,41 @@
         </div>
         </section>
         <!--  footer  -->
-    <footer class="footer">
+        <footer class="footer">
         <div class="footerup">
-            <div> <b>Follow Us:</b>
-                <p><a href=""><i class="fab fa-instagram"></i></a>&nbsp &nbsp<a href=""><i
-                            class="fab fa-tiktok"></i></a> </p>
+            <div><b>Follow Us:</b>
+                <p><a href="https://www.instagram.com/perfectsmileexperience/" target:"_blank"><i
+                            class="fab fa-instagram"></i></a><a href="">
+                        <i class="fab fa-tiktok"></i></a> </p>
+                <p></p>
             </div>
 
             <div><b>Email:</b>
+
                 <p>perfectsmileexperience@gmail.com</p>
             </div>
 
-            <div>
-                <b> Adress:</b>
-                <p>Medellín - Colombia</p>
-            </div>
-            <div>
-                <b> Phone:</b>
-                <p>+57 3245832934</p>
+            <div><b>Adress:</b>
+
+                <p>Medell&iacute;n - Colombia</p>
             </div>
 
+            <div><b>Phone:</b>
+
+                <p>+57 3245832934</p>
+            </div>
         </div>
-        </div>
+
         <div class="footerdown">
-            <p class="copy">Copyright © Perfect Smile Experience LLC | All Rights Reserved |<a
-                    href="../PerfectSmile/ProductDisclaimer.html">Product Disclaimer </a></p>
-            <br>
-            <p class="letrapequeña">“For informational purposes only. Please consult your dentist to see if veneers are
-                right for you. The Smile Session does not replace the need for a consultation with your dentist.
-                Individual cases and results may vary. Tooth or gum contouring may be necessary.¨</p>
-            <br>
+            <p class="copy">Copyright &copy; Perfect Smile Experience LLC | All Rights Reserved |<a
+                    href="./ProductDisclaimer.html">Product Disclaimer </a></p>
+            &nbsp;
+
+            <p class="letrapequena">&ldquo;For informational purposes only. Please consult your dentist to see if
+                veneers are right for you. The Smile Session does not replace the need for a consultation with your
+                dentist. Individual cases and results may vary. Tooth or gum contouring may be necessary.&uml;</p>
         </div>
+    </footer>
         <!--Bootstrap JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
