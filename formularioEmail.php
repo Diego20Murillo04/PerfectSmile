@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfect Smile</title>
     <script src="https://kit.fontawesome.com/0eaecc8c33.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../PerfectSmile/estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="shortcut icon" href="../estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
+    <link href="./estilos/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./estilos/ConsultationOnlineStyles.css">
     <link rel="stylesheet" href="https://use.typekit.net/zcb5jci.css">
 
 
@@ -16,103 +17,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-
-    <style>
-        .derecha {
-            width: 510px;
-            height: 400px;
-            float: right;
-        }
-        
-        .imagenes {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 22px;
-            flex-wrap: wrap;
-        }
-        
-        .imagenes>div {
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 15px;
-            margin-bottom: 7px;
-        }
-        
-        
-        
-        .izquierda {
-            float: left;
-            width: 264px;
-            height: 420px;
-            text-align: left;
-            align-items: left;
-            padding-bottom: 12px;
-        }
-        
-        .contenedor {
-            width: 990px;
-            margin: 0 auto;
-            height: 700px;
-        }
-        
-        form {
-            width: 80%;
-            margin: 0 auto;
-        }
-        
-        input[type="file"] {
-            cursor: pointer;
-        }
-        
-        textarea {
-            resize: none;
-            width: 254px;
-        }
-        
-        .preguntas {
-            border-bottom: 1px solid gray;
-            text-align: justify;
-            width: 95%;
-        }
-        
-        .preguntas>label {
-            padding-right: 16.3px;
-        }
-        
-        img {
-            width: 70px;
-            height: 50px;
-        }
-        
-        input[type="submit"] {
-            margin-left: 65%;
-            width: 140px;
-            height: 35px;
-            background-color: blue;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-        
-        label {
-            cursor: pointer;
-        }
-        
-        .llenar {
-            height: 200px;
-            padding-bottom: 12px;
-            margin: 18px 0px 88px 0px;
-            width: 50%;
-        }
-        
-        .llenar>input,
-        input[type="text"] {
-            margin-bottom: 12px;
-            width: 254px;
-            height: 30px;
-        }
-    </style>
 </head>
 
 <body>
@@ -150,7 +54,6 @@
             </div>
         </div>
     </nav>
-
     <div class="titulo">
         <p>Consultation Online</p>
     </div>
@@ -227,7 +130,7 @@
     ?>
     <section class="contenedorconsultation">
         <div class="formularioconsultation">
-            <form action="enviarEmail.php" method="post" enctype="multipart/form-data">
+            <form action="" method="post" enctype="multipart/form-data">
                 <div class="derecha">
                     <div class="imagenes">
                         <div class="imagen1">
@@ -259,19 +162,19 @@
                     </div>
                 </div>
                 <div class="izquierda">
-                    <input type="text" name="nombre" placeholder="Fullname" id="nombre">
+                    <input type="text" name="nombre" placeholder="Fullname" id="nombre" required>
                     <div class="preguntas">
                         <span>Do you have any of these procedures?</span><br>
-                        <input type="checkbox" name="c[]" value="Crowns" id="c1"><label for="c1">Crowns</label>
+                        <input type="checkbox" name="c[]" value="Crowns" id="c1" ><label for="c1">Crowns</label>
                         <input type="checkbox" name="c[]" value="Missing teeth/tooth" id="c2"><label for="c2">Missing
                         teeth/tooth</label>
                         <input type="checkbox" name="c[]" value="Bridges" id="c3"><label for="c3">Bridges</label>
                         <input type="checkbox" name="c[]" value="Root canals" id="c4"><label for="c4">Root canals</label>
                     </div>
                     <div class="llenar">
-                        <input type="tel" name="tel" placeholder="Contact Number" id="">
-                        <input type="email" name="email" placeholder="E-mail" id="">
-                        <input type="text" name="smo" placeholder="Do you smoke?" id="">
+                        <input type="tel" name="tel" placeholder="Contact Number" id="" required>
+                        <input type="email" name="email" placeholder="E-mail" id="" required>
+                        <input type="text" name="smo" placeholder="Do you smoke?" id="" required>
                         <textarea name="mens" id="" cols="30" placeholder="Please tell us, what would you like to improve on your smile?" rows="10"></textarea>
                     </div>
                     <p>If you have difficulty submitting your online consultation, please email the photos of your teeth as shown on:</p>
