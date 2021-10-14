@@ -130,7 +130,7 @@
     ?>
     <section class="contenedorconsultation">
         <div class="formularioconsultation">
-            <form action="" method="post" enctype="multipart/form-data">
+            <form class="FormConsultation" action="" method="post" enctype="multipart/form-data">
                 <div class="derecha">
                     <div class="imagenes">
                         <div class="imagen1">
