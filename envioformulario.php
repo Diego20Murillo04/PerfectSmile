@@ -14,4 +14,8 @@ $message = $_POST["message"];
 
 echo $name." ".$email. " " .$subjet." ".$phone. " ".$message;
 
+mail($para, $titulo, $mensaje, $cabeceras);
+
+$para
+
 ?>
