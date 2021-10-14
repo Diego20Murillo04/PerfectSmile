@@ -1,9 +1,3 @@
-.derecha {
-    width: 510px;
-    height: 400px;
-    float: right;
-}
-
 .imagenes {
     display: flex;
     flex-direction: row;
@@ -18,77 +12,7 @@
     margin-bottom: 7px;
 }
 
-
-
-.izquierda {
-    float: left;
-    width: 264px;
-    height: 420px;
-    text-align: left;
-    align-items: left;
-    padding-bottom: 12px;
-}
-
-.contenedor {
-    width: 990px;
-    margin: 0 auto;
-    height: 700px;
-}
-
-form {
-    width: 80%;
-    margin: 0 auto;
-}
-
-input[type="file"] {
-    cursor: pointer;
-}
-
-textarea {
-    resize: none;
-    width: 254px;
-}
-
-.preguntas {
-    border-bottom: 1px solid gray;
-    text-align: justify;
-    width: 95%;
-}
-
-.preguntas>label {
-    padding-right: 16.3px;
-}
-
-img {
+.fondos img {
     width: 70px;
     height: 50px;
-}
-
-input[type="submit"] {
-    margin-left: 65%;
-    width: 140px;
-    height: 35px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-label {
-    cursor: pointer;
-}
-
-.llenar {
-    height: 200px;
-    padding-bottom: 12px;
-    margin: 18px 0px 88px 0px;
-    width: 50%;
-}
-
-.llenar>input,
-input[type="text"] {
-    margin-bottom: 12px;
-    width: 254px;
-    height: 30px;
 }
