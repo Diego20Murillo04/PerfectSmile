@@ -43,6 +43,12 @@ html {
     html {
         font-size: 0.8rem;
     }
+    .footer {
+        font-size: 0.75rem;
+    }
+    .footerdown {
+        text-align: center;
+    }
 }
 
 /* navbar */
