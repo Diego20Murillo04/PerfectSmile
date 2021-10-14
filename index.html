@@ -2,61 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfect Smile</title>
     <script src="https://kit.fontawesome.com/0eaecc8c33.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../PerfectSmile/estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../PerfectSmile/estilos/style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/zcb5jci.css">
-    <link rel="stylesheet" href="slider.js">
-    <link rel="stylesheet" href="carrusel.js">
-
+    <link href="./estilos/imagenes/logo/PERFECT-favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="./estilos/style.css" rel="stylesheet" />
+    <link href="https://use.typekit.net/zcb5jci.css" rel="stylesheet" />
+    <link href="slider.js" rel="stylesheet" />
+    <link href="carrusel.js" rel="stylesheet" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" rel="stylesheet" />
 </head>
 
 <body>
     <!--  Navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <div class="container-fluid">
-            <a class="logo navbar-brand" href="index.html"><img src="../estilos/imagenes/logo/perfect\ smile\ logo.png"
-                    alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+        <div class="container-fluid"><a class="logo navbar-brand" href="index.html"><img alt=""
+                    src="./estilos/imagenes/logo/perfect-logo.png" /></a><button aria-controls="offcanvasNavbar"
+                class="navbar-toggler" data-bs-target="#offcanvasNavbar" data-bs-toggle="offcanvas"
+                type="button"></button>
+            <div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-end" id="offcanvasNavbar"
+                tabindex="-1">
                 <div class="offcanvas-header">
                     <div class="offcanvas-title" id="offcanvasNavbarLabel"></div>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                    <button aria-label="Close" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        type="button"></button>
                 </div>
+
                 <div class="offcanvas-body">
                     <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../PerfectSmile/Consultation Online.html">Consultation
-                                Online</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="./formularioEmail.php">Consultation
+                                Online</a></li>
                         <!--<li class="nav-item">
                             <a class="nav-link" href="#">Veneers</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Testimonial</a>
                         </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#Contact">Contact Us</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#ContactUs">Contact Us</a></li>
                         <!--<li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pay Deposit</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pay Deposit</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,86 +54,83 @@
     </nav>
 
     <div class="slider">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../PerfectSmile/estilos/imagenes/banner1.png" class="d-block w-100" alt="...">
+                <div class="carousel-item active"><img alt="..." class="d-block w-100"
+                        src="./estilos/imagenes/banner1.png" /></div>
+
+                <div class="carousel-item"><img alt="..." class="d-block w-100" src="./estilos/imagenes/banner2.png" />
                 </div>
-                <div class="carousel-item">
-                    <img src="../PerfectSmile/estilos/imagenes/banner2.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../PerfectSmile/estilos/imagenes/banner3.png" class="d-block w-100" alt="...">
-                </div>
+                <!-- <div class="carousel-item"><img alt="..." class="d-block w-100" src="./estilos/imagenes/banner3.png" /></div> -->
             </div>
         </div>
     </div>
-
-
     <!-- tarjetas circulares  -->
+
     <div class="tarjetas">
         <div class="card border-0">
-            <div class="card-img-top border-0" src="..." alt="Card image cap">
+            <div alt="Card image cap" class="card-img-top border-0" src="...">
                 <div class="circle">
                     <div class="circle1"></div>
                 </div>
             </div>
+
             <div class="card-body border-0">
                 <p class="card-text border-0">Your Smile design specialist will create a work of art, no big teeth or
-                    fake look.
-                </p>
+                    fake look.</p>
             </div>
         </div>
+
         <div class="card border-0">
-            <div class="card-img-top border-0" src="..." alt="Card image cap">
+            <div alt="Card image cap" class="card-img-top border-0" src="...">
                 <div class="circle">
                     <div class="circle2"></div>
                 </div>
             </div>
+
             <div class="card-body border-0">
                 <p class="card-text">These veneers are non invasive and designed not to damage your natural teeth or
                     enamel.</p>
             </div>
         </div>
+
         <div class="card border-0">
-            <div class="card-img-top border-0" src="..." alt="Card image cap">
+            <div alt="Card image cap" class="card-img-top border-0" src="...">
                 <div class="circle">
                     <div class="circle3"></div>
                 </div>
             </div>
+
             <div class="card-body border-0">
-                <p class="card-text">20 veneers (10 upper and 10 lower) completed in just tree or four days, with no down
-                    time. </p>
+                <p class="card-text">20 veneers (10 upper and 10 lower) completed in just tree or four days, with no
+                    down time.</p>
             </div>
         </div>
     </div>
 
     <section class="section">
-
         <div class="CarouselSection">
             <div class="carrusel">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+                    <div class="carousel-indicators"><button aria-current="true" aria-label="Slide 1" class="active"
+                            data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button><button aria-label="Slide 2" data-bs-slide-to="1"
+                            data-bs-target="#carouselExampleIndicators" type="button"></button><button
+                            aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button></div>
+
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../PerfectSmile/estilos/imagenes/antesdespues-(1).jpg.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../PerfectSmile/estilos/imagenes/antesdespues-(2).jpg.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../PerfectSmile/estilos/imagenes/antesdespues-(3).jpg.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../PerfectSmile/estilos/imagenes/antesdespues-(4).jpg.png" class="d-block w-100" alt="...">
-                        </div>
+                        <div class="carousel-item active"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues-(1).jpg.png" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues-(2).jpg.png" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues-(3).jpg.png" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues-(4).jpg.png" /></div>
                     </div>
                     <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev">
@@ -157,36 +144,34 @@
                     </button>-->
                 </div>
             </div>
+
             <div class="carrusel1">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                    </div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+                    <div class="carousel-indicators"><button aria-current="true" aria-label="Slide 1" class="active"
+                            data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button><button aria-label="Slide 2" data-bs-slide-to="1"
+                            data-bs-target="#carouselExampleIndicators" type="button"></button><button
+                            aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button><button aria-label="Slide 4" data-bs-slide-to="3"
+                            data-bs-target="#carouselExampleIndicators" type="button"></button><button
+                            aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button></div>
+
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./estilos/imagenes/antesdespues (1).jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./estilos/imagenes/antesdespues (2).jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./estilos/imagenes/antesdespues (3).jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./estilos/imagenes/antesdespues (4).jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./estilos/imagenes/antesdespues (5).jpg" class="d-block w-100" alt="...">
-                        </div>
+                        <div class="carousel-item active"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues (1).jpg" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues (2).jpg" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues (3).jpg" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues (4).jpg" /></div>
+
+                        <div class="carousel-item"><img alt="..." class="d-block w-100"
+                                src="./estilos/imagenes/antesdespues (5).jpg" /></div>
                     </div>
                     <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev">
@@ -210,15 +195,13 @@
                     se vean falsos o feos.</p>
 
                 <p>Adicional a ello nos preocupamos por realizar un trabajo pensando en la salud del paciente por lo que
-                    la talla a sus dientes naturales es minima.
-                </p>
+                    la talla a sus dientes naturales es minima.</p>
 
-                <p>El proceso tiene una duraccion estimada de 4 dias desde su consulta inicial.
-                </p>
+                <p>El proceso tiene una duraccion estimada de 4 dias desde su consulta inicial.</p>
 
                 <p>Nostros proporcionamos el hospedaje y los transportes.</p>
 
-                <p>Trabajamos con los mejores profesionales para garantizarle a usted que tendra una perfect smile. </p>
+                <p>Trabajamos con los mejores profesionales para garantizarle a usted que tendra una perfect smile.</p>
 
                 <p>Para reservar su visita:</p>
 
@@ -229,25 +212,28 @@
                     <li>Envie el soporte del deposito y nosotros agendaremos su visita</li>
                 </ol>
 
-                <p>Para mayor informacion puede ponerse en contacto en el siguiente formulario o enviar
-                    un correo electronico a: perfectsmilee@contacto.com</p>
-
+                <p>Para mayor informacion puede ponerse en contacto en el siguiente formulario o enviar un correo
+                    electronico a: perfectsmilee@contacto.com</p>
             </div>
         </div>
     </section>
+
     <div class="hr">
-        <hr>
+        <hr />
     </div>
-    <br>
+
+    <p></p>
+
     <div class="api-instagram">
         <div data-mc-src="52d305ff-4e60-4afe-b9fa-97da64fbdbbd#instagram"></div>
-
         <script src="https://cdn2.woxo.tech/a.js#614cac909215eb0016dedcd7" async data-usrc>
         </script>
     </div>
 
+    <p></p>
+
     <div class="hr">
-        <hr>
+        <hr />
     </div>
 
     <div class="contact" id="ContactUs">
@@ -255,96 +241,80 @@
     </div>
 
     <div class="ContactUs">
-
         <div class="formulario">
             <form action="envioformulario.php" class="form-floating" method="post">
                 <div class="row g-3">
+                    <div class="form-floating col-12"><input class="form-control border border-primary"
+                            id="floatingInput" name="fullname" placeholder="Full Name" type="text" /> <label
+                            for="floatingInput">Full Name</label></div>
 
-                    <div class="form-floating col-12">
-                        <input type="text" name="fullname" class="form-control border border-primary" id="floatingInput"
-                            placeholder="Full Name">
-                        <label for="floatingInput">Full Name</label>
-                    </div>
+                    <div class="form-floating col-12"><input class="form-control border border-primary"
+                            id="floatingInput" name="email" placeholder="email@example.com" type="email" /> <label
+                            for="floatingInput">Email</label></div>
 
-                    <div class="form-floating col-12">
-                        <input type="email" name="email" class="form-control border border-primary" id="floatingInput"
-                            placeholder="email@example.com">
-                        <label for="floatingInput">Email</label>
-                    </div>
+                    <div class="form-floating col-md-6"><input class="form-control border border-primary"
+                            id="floatingInput" name="subject" placeholder="subject" type="text" /> <label
+                            for="floatingInput">Subject</label></div>
 
-                    <div class="form-floating col-md-6">
-                        <input type="text" name="subject" class="form-control border border-primary" id="floatingInput"
-                            placeholder="subject">
-                        <label for="floatingInput">Subject</label>
-                    </div>
+                    <div class="form-floating col-md-6"><input class="form-control border border-primary"
+                            id="floatingInput" name="number" placeholder="Contact number" type="number" /> <label
+                            for="floatingInput">Contact number</label></div>
 
-                    <div class="form-floating col-md-6">
-                        <input type="number" name="number" class="form-control border border-primary" id="floatingInput"
-                            placeholder="Contact number">
-                        <label for="floatingInput">Contact number</label>
-                    </div>
+                    <div class="form-floating col-12"><textarea class="form-control border border-primary" cols="30"
+                            id="floatingTextarea2" name="message" placeholder="Leave a message here"
+                            rows="10"></textarea><label for="floatingTextarea2">Message</label></div>
 
-                    <div class="form-floating col-12">
-                        <textarea name="message" class="form-control border border-primary" id="floatingTextarea2"
-                            placeholder="Leave a message here" cols="30" rows="10"></textarea>
-                        <label for="floatingTextarea2">Message</label>
-                    </div>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <button style="background: #202b70;" type="submit" class="btn btn-primary border-0">Send</button>
-                    </div>
-
+                    <div class="d-grid gap-2 col-6 mx-auto"><button class="btn btn-primary border-0"
+                            style="background: #202b70;" type="submit">Send</button></div>
                 </div>
             </form>
         </div>
 
-        <div class="map">
-            <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.2152166732828!2d-75.57132423848532!3d6.206816998806712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468281c4954139%3A0xffaced5967958337!2sEdificio%20Medical!5e0!3m2!1ses!2sco!4v1634010720151!5m2!1ses!2sco"
-                allowfullscreen="" loading="lazy"></iframe>
+        <div class="map"><iframe allowfullscreen="" class="mapa" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.2152166732828!2d-75.57132423848532!3d6.206816998806712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468281c4954139%3A0xffaced5967958337!2sEdificio%20Medical!5e0!3m2!1ses!2sco!4v1634010720151!5m2!1ses!2sco"></iframe>
         </div>
-
     </div>
-
-
-    
     <!--  footer  -->
+
     <footer class="footer">
         <div class="footerup">
-            <div> <b>Follow Us:</b>
-                <p><a href=""><i class="fab fa-instagram"></i></a><a href=""><i
-                            class="fab fa-tiktok"></i></a> </p>
+            <div><b>Follow Us:</b>
+                <p><a href="https://www.instagram.com/perfectsmileexperience/" target:"_blank"><i
+                            class="fab fa-instagram"></i></a><a href="">
+                        <i class="fab fa-tiktok"></i></a> </p>
+                <p></p>
             </div>
 
             <div><b>Email:</b>
+
                 <p>perfectsmileexperience@gmail.com</p>
             </div>
 
-            <div>
-                <b> Adress:</b>
-                <p>Medellín - Colombia</p>
+            <div><b>Adress:</b>
+
+                <p>Medell&iacute;n - Colombia</p>
             </div>
-            <div>
-                <b> Phone:</b>
+
+            <div><b>Phone:</b>
+
                 <p>+57 3245832934</p>
             </div>
+        </div>
 
-        </div>
-        </div>
         <div class="footerdown">
-            <p class="copy">Copyright © Perfect Smile Experience LLC | All Rights Reserved   |<a href="../PerfectSmile/formularioEmail.php">Product Disclaimer </a></p>
-            <br>
-            <p class="letrapequeña">“For informational purposes only. Please consult your dentist to see if veneers are right for you. The Smile Session does not replace the need for a consultation with your dentist.
-                Individual cases and results may vary. Tooth or gum contouring may be necessary.¨</p>
-                <br>
+            <p class="copy">Copyright &copy; Perfect Smile Experience LLC | All Rights Reserved |<a
+                    href="./ProductDisclaimer.html">Product Disclaimer </a></p>
+            &nbsp;
+
+            <p class="letrapequena">&ldquo;For informational purposes only. Please consult your dentist to see if
+                veneers are right for you. The Smile Session does not replace the need for a consultation with your
+                dentist. Individual cases and results may vary. Tooth or gum contouring may be necessary.&uml;</p>
         </div>
-
-
     </footer>
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
