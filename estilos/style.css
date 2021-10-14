@@ -41,10 +41,10 @@ html {
 
 @media (max-width: 500px) {
     html {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .footer {
-        font-size: 0.75rem;
+        font-size: 0.6rem;
     }
     .footerdown {
         text-align: center;
@@ -176,6 +176,19 @@ nav {
     text-align: center;
 }
 
+@media (max-width:800px){
+    .circle{
+        width: 60px;
+        height: 60px;
+        border: 60px;
+    }
+    .circle1, .circle2, .circle3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+}
+
 /* ----------- */
 /*   carrusel  */
 /*-------------*/
@@ -281,6 +294,16 @@ nav {
     padding: 0;
 }
 
+@media (max-width:800px){
+    .formulario{
+        height: fit-content;
+    }
+    .map{
+        height: 350px;
+    }
+
+}
+
 .formulario #floatingTextarea2 {
     height: 100px;
 }
@@ -307,7 +330,7 @@ nav {
 
 .api-instagram {
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 /* footer*/
