@@ -301,6 +301,7 @@ nav {
 .footerup a i {
     text-decoration: none;
     color: var(--blanco);
+    margin: 0 10px;
 }
 
 .footerup a i:hover {
