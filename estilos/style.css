@@ -333,8 +333,9 @@ nav {
     flex-wrap: wrap;
 }
 
-.footerup {
-    padding: 0;
+.footerup div {
+    margin: 0;
+    padding: 0 6.25%;
 }
 
 .footerup b {
@@ -350,10 +351,6 @@ nav {
 .footerup a i:hover {
     font-size: 20px;
     transition: 0.5s;
-}
-
-.footerup div {
-    padding: 1rem;
 }
 
 .footerdown {
