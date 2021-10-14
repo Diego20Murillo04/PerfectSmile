@@ -23,8 +23,26 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: myriad-pro, sans-serif;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 0.8rem;
+    }
 }
 
 /* navbar */
