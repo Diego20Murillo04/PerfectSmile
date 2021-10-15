@@ -178,7 +178,7 @@ nav {
 
 .card {
     margin: 20px;
-    width: 18rem;
+    width: 30%;
 }
 
 .card-text,
@@ -187,6 +187,23 @@ nav {
     color: var(--blanco);
     background: var(--morado);
     text-align: center;
+}
+
+.textomovilcircle{
+    display: none;
+}
+
+@media (max-width:800px){
+    .card-text{
+        display: none;
+    }
+    .textomovilcircle{
+        display: block;
+    }
+    .card{
+        width: 20%;
+        display: inline-flex;
+    }
 }
 
 /* ----------- */
