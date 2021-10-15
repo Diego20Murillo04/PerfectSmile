@@ -44,7 +44,7 @@
                                     Online</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#ContactUs">Contact Us</a>
+                                <a class="nav-link" href="./index.html#ContactUs">Contact Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Pay Deposit</a>
