@@ -123,17 +123,22 @@
     
         // Enviarlo
         if (mail($para, $titulo, $mensaje, $cabeceras)) {
-            echo '<div class="mens">Correo enviado</div>';
+            echo "<script>
+            alert('The message has been sent');
+            </script>";
             
        } else {
-            echo 'No se pudo enviar';
+            echo "<script>
+            alert('The message couldn't be sent);
+            </script>";
        }
     }
     ?>
 
         <div class="ContactUs">
-         <form action="envioformulario.php" class="form-floating" method="post">
+         
             <div class="formulario">
+                <form action="" class="form-floating" method="post" enctype="multipart/form-data">
                     <div class="row g-3">
 
                         <div class="form-floating col-12">
@@ -172,10 +177,9 @@
                             <textarea class="form-control border border-primary" cols="30" id="floatingTextarea2" name="mens" placeholder="Message" rows="10"></textarea>
                             <label for="floatingTextarea2">Please tell us, what would you like to improve on your smile?</label>
                         </div>
+                        <button class="btn btn-primary border-0" style="background: #202b70;" type="submit" name="enc">Send</button>
 
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary border-0" style="background: #202b70;" type="submit">Send</button>
-                        </div>
+                        
                         <p>If you have difficulty submitting your online consultation, please email the photos of your teeth as shown on:</p>
                     </div>
                 
@@ -215,8 +219,13 @@
                         <input type="file" name="file[5]" id="">
                     </div>
                 </div>
+                
             </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                            
+                        
          </form>
+         </div>
         </div>
 
         <!--  footer  -->

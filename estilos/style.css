@@ -303,8 +303,18 @@ nav {
     margin-bottom: 20px;
 }
 
-.formulario, .map {
+.formulario {
     height:auto;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5px 5px;
+    padding: 0;
+}
+
+.map {
+    height: 700px;
     width: 47%;
     display: flex;
     justify-content: center;
