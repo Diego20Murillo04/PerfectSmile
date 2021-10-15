@@ -8,8 +8,7 @@
     <title>Perfect Smile</title>
     <script src="https://kit.fontawesome.com/0eaecc8c33.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
-    <link href="./estilos/style.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="./estilos/ConsultationOnlineStyles.css">
+    <link href="./estilos/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zcb5jci.css">
 
 
@@ -58,7 +57,7 @@
         <div class="titulo">
             <p>Consultation Online</p>
         </div>
-        <?php
+        <!--<?php
     if (isset($_POST["enc"])) {
     
         $texto = "Nombre: " . $_POST['nombre'];
@@ -128,95 +127,89 @@
             echo 'No se pudo enviar';
        }
     }
-    ?>
-        
-            <form class="row g-3 form" action="" method="post" enctype="multipart/form-data">
+    ?>-->
 
-                <div class="col-md-6 aside">
-                    <div class="col">
-                        <label for="nombre" class="form-label">Full name</label>
-                        <input type="text" name="nombre" class="form-control border border-primary"
-                            placeholder="Full name" id="nombre" required>
-                    </div>
+        <div class="ContactUs">
+            <div class="formulario">
+                <form action="envioformulario.php" class="form-floating" method="post">
+                    <div class="row g-3">
 
-                    <div class="col">
-                        <span class="form-label">Do you have any of these procedures?</span><br>
-                        <input type="checkbox" name="c[]" value="Crowns" class="form-check-input" id="c1"><label
-                            for="c1" class="form-check-label">Crowns</label>
-                        <input type="checkbox" name="c[]" value="Missing teeth/tooth" class="form-check-input"
-                            id="c2"><label for="c2" class="form-check-label">Missing
-                            teeth/tooth</label>
-                        <input type="checkbox" name="c[]" value="Bridges" class="form-check-input" id="c3"><label
-                            for="c3" class="form-check-label">Bridges</label>
-                        <input type="checkbox" name="c[]" value="Root canals" class="form-check-input" id="c4"><label
-                            for="c4" class="form-check-label">Root canals</label>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="contacto" class="form-label"></label>
-                            <input type="tel" name="tel" class="form-control border border-primary"
-                                placeholder="Contact Number" id="contacto" required>
+                        <div class="form-floating col-12">
+                            <input class="form-control border border-primary" id="floatingInput" name="nombre"
+                                placeholder="Full Name" type="text" required>
+                            <label for="floatingInput">Full Name</label>
                         </div>
-                        <div class="col-md-6">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" name="email" class="form-control border border-primary"
-                                placeholder="E-mail" id="email" required>
-                        </div>
+
                         <div class="col-12">
-                            <label for="smo" class="form-label"></label>
-                            <input type="text" name="smo" class="form-control border border-primary"
-                                placeholder="Do you smoke?" id="smo" required>
+                            <span class="form-label">Do you have any of these procedures?</span><br>
+                            <input type="checkbox" name="c[]" value="Crowns" class="form-check-input" id="c1"><label
+                                for="c1" class="form-check-label">Crowns</label>
+                            <input type="checkbox" name="c[]" value="Missing teeth/tooth" class="form-check-input"
+                                id="c2"><label for="c2" class="form-check-label">Missing
+                                teeth/tooth</label>
+                            <input type="checkbox" name="c[]" value="Bridges" class="form-check-input" id="c3"><label
+                                for="c3" class="form-check-label">Bridges</label>
+                            <input type="checkbox" name="c[]" value="Root canals" class="form-check-input"
+                                id="c4"><label for="c4" class="form-check-label">Root canals</label>
                         </div>
-                        <div class="col">
-                            <label for="mens" class="form-label"></label>
-                        <textarea name="mens" class="form-control border border-primary" id="mens"
-                            placeholder="Please tell us, what would you like to improve on your smile?"></textarea>
-                        </div>
+
+                        <div class="form-floating col-md-6"><input class="form-control border border-primary"
+                                id="floatingInput" name="tel" placeholder="Contact number" type="number" /> <label
+                                for="floatingInput">Contact number</label></div>
+
+                        <div class="form-floating col-md-6"><input class="form-control border border-primary"
+                                id="floatingInput" name="email" placeholder="email@example.com" type="email" /> <label
+                                for="floatingInput">Email</label></div>
+
+                        <div class="form-floating col-12"><input class="form-control border border-primary"
+                                id="floatingInput" name="smo" placeholder="Do you smoke?" type="text" /> <label
+                                for="floatingInput">Do you smoke?</label></div>
+
+                        <div class="form-floating col-12"><textarea class="form-control border border-primary" cols="30"
+                                id="floatingTextarea2" name="mens" placeholder="Message" rows="10"></textarea><label
+                                for="floatingTextarea2">Please tell us, what would you like to improve on your
+                                smile?</label></div>
+
+                        <div class="d-grid gap-2 col-6 mx-auto"><button class="btn btn-primary border-0"
+                                style="background: #202b70;" type="submit">Send</button></div>
+                        <p>If you have difficulty submitting your online consultation, please email the photos of your
+                            teeth as shown on:</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="formulario">
+
+                <div class="imagenes row g-3">
+                    <div class="imagen1 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[0]" id="">
+                    </div>
+                    <div class="imagen2 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[1]" id="">
 
                     </div>
-
-                    <div class="btn d-grid gap-2 col-6 mx-auto">
-                        <input type="submit" class="btn btn-primary" name="enc" value="Enviar">
+                    <div class="imagen3 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[2]" id="">
                     </div>
-
-                    <p>If you have difficulty submitting your online consultation, please email the photos of your teeth
-                        as shown on:</p>
-
+                    <div class="imagen4 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[3]" id="">
+                    </div>
+                    <div class="imagen5 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[4]" id="">
+                    </div>
+                    <div class="imagen6 col-md-6">
+                        <img src="fondo.jpg" alt="" srcset="">
+                        <input type="file" name="file[5]" id="">
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-md-6 fondos aside">
-                    <div class="imagenes">
-                        <div class="imagen1 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[0]" id="">
-                        </div>
-                        <div class="imagen2 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[1]" id="">
-
-                        </div>
-                        <div class="imagen3 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[2]" id="">
-                        </div>
-                        <div class="imagen4 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[3]" id="">
-                        </div>
-                        <div class="imagen5 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[4]" id="">
-                        </div>
-                        <div class="imagen6 col-md-6">
-                            <img src="fondo.jpg" alt="" srcset="">
-                            <input type="file" name="file[5]" id="">
-                        </div>
-
-                    </div>
-                </div>
-
-            </form>
-        
         <!--  footer  -->
         <footer class="footer">
             <div class="footerup">

@@ -303,7 +303,7 @@ nav {
 }
 
 .formulario, .map {
-    height: 500px;
+    height: 800px;
     width: 47%;
     display: flex;
     justify-content: center;
@@ -341,6 +341,25 @@ nav {
     .formulario, .map {
         width: 90%;
     }
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+}
+
+.imagenes div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    margin-bottom: 7px;
+}
+
+.imagenes img {
+    width: 70px;
+    height: 50px;
 }
 
 /*api de instagram*/
