@@ -57,7 +57,7 @@
         <div class="titulo">
             <p>Consultation Online</p>
         </div>
-        <!--<?php
+        <?php
     if (isset($_POST["enc"])) {
     
         $texto = "Nombre: " . $_POST['nombre'];
@@ -127,7 +127,7 @@
             echo 'No se pudo enviar';
        }
     }
-    ?>-->
+    ?>
 
         <div class="ContactUs">
             <div class="formulario">
