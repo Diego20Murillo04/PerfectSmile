@@ -57,6 +57,8 @@
         <div class="titulo">
             <p>Consultation Online</p>
         </div>
+
+
         <?php
     if (isset($_POST["enc"])) {
     
@@ -77,7 +79,7 @@
         //print_r($texto);
     
         // título
-        $titulo = 'Prueba de correo html';
+        $titulo = 'Consultation Online';
         $boundary = md5(time());
         $cabeceras  = "MIME-Version: 1.0\r\n";
         $cabeceras .= 'To: Luis <'.$para.">\r\n";
@@ -130,53 +132,53 @@
     ?>
 
         <div class="ContactUs">
+         <form action="envioformulario.php" class="form-floating" method="post">
             <div class="formulario">
-                <form action="envioformulario.php" class="form-floating" method="post">
                     <div class="row g-3">
 
                         <div class="form-floating col-12">
                             
-                            <input class="form-control border border-primary" id="floatingInput" name="nombre"
-                                placeholder="Full Name" type="text" required>
+                            <input class="form-control border border-primary" id="floatingInput" name="nombre" placeholder="Full Name" type="text" required>
                             <label for="floatingInput">Full Name</label>
                         </div>
 
                         <div class="col-12">
                             <span class="form-label">Do you have any of these procedures?</span><br>
-                            <input type="checkbox" name="c[]" value="Crowns" class="form-check-input" id="c1"><label
-                                for="c1" class="form-check-label">Crowns</label>
-                            <input type="checkbox" name="c[]" value="Missing teeth/tooth" class="form-check-input"
-                                id="c2"><label for="c2" class="form-check-label">Missing
-                                teeth/tooth</label>
-                            <input type="checkbox" name="c[]" value="Bridges" class="form-check-input" id="c3"><label
-                                for="c3" class="form-check-label">Bridges</label>
-                            <input type="checkbox" name="c[]" value="Root canals" class="form-check-input"
-                                id="c4"><label for="c4" class="form-check-label">Root canals</label>
+                            <input type="checkbox" name="c[]" value="Crowns" class="form-check-input" id="c1">
+                            <label for="c1" class="form-check-label">Crowns</label>
+                            <input type="checkbox" name="c[]" value="Missing teeth/tooth" class="form-check-input" id="c2">
+                            <label for="c2" class="form-check-label">Missing teeth/tooth</label>
+                            <input type="checkbox" name="c[]" value="Bridges" class="form-check-input" id="c3">
+                            <label for="c3" class="form-check-label">Bridges</label>
+                            <input type="checkbox" name="c[]" value="Root canals" class="form-check-input" id="c4"><label for="c4" class="form-check-label">Root canals</label>
                         </div>
 
-                        <div class="form-floating col-md-6"><input class="form-control border border-primary"
-                                id="floatingInput" name="tel" placeholder="Contact number" type="number" /> <label
-                                for="floatingInput">Contact number</label></div>
+                        <div class="form-floating col-md-6">
+                            <input class="form-control border border-primary" id="floatingInput" name="tel" placeholder="Contact number" type="number" /> 
+                            <label for="floatingInput">Contact number</label>
+                        </div>
 
-                        <div class="form-floating col-md-6"><input class="form-control border border-primary"
-                                id="floatingInput" name="email" placeholder="email@example.com" type="email" /> <label
-                                for="floatingInput">Email</label></div>
+                        <div class="form-floating col-md-6">
+                            <input class="form-control border border-primary" id="floatingInput" name="email" placeholder="email@example.com" type="email" /> 
+                            <label for="floatingInput">Email</label>
+                        </div>
 
-                        <div class="form-floating col-12"><input class="form-control border border-primary"
-                                id="floatingInput" name="smo" placeholder="Do you smoke?" type="text" /> <label
-                                for="floatingInput">Do you smoke?</label></div>
+                        <div class="form-floating col-12">
+                            <input class="form-control border border-primary" id="floatingInput" name="smo" placeholder="Do you smoke?" type="text" /> 
+                            <label for="floatingInput">Do you smoke?</label>
+                        </div>
 
-                        <div class="form-floating col-12"><textarea class="form-control border border-primary" cols="30"
-                                id="floatingTextarea2" name="mens" placeholder="Message" rows="10"></textarea><label
-                                for="floatingTextarea2">Please tell us, what would you like to improve on your
-                                smile?</label></div>
+                        <div class="form-floating col-12">
+                            <textarea class="form-control border border-primary" cols="30" id="floatingTextarea2" name="mens" placeholder="Message" rows="10"></textarea>
+                            <label for="floatingTextarea2">Please tell us, what would you like to improve on your smile?</label>
+                        </div>
 
-                        <div class="d-grid gap-2 col-6 mx-auto"><button class="btn btn-primary border-0"
-                                style="background: #202b70;" type="submit">Send</button></div>
-                        <p>If you have difficulty submitting your online consultation, please email the photos of your
-                            teeth as shown on:</p>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary border-0" style="background: #202b70;" type="submit">Send</button>
+                        </div>
+                        <p>If you have difficulty submitting your online consultation, please email the photos of your teeth as shown on:</p>
                     </div>
-                </form>
+                
             </div>
 
             <div class="formulario">
@@ -214,6 +216,7 @@
                     </div>
                 </div>
             </div>
+         </form>
         </div>
 
         <!--  footer  -->
