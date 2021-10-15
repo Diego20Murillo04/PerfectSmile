@@ -60,11 +60,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 0.85rem;
-
 }
 
 .nav .active {
     color: var(--azul);
+}
+
+.navbar a {
+    color: var(--negro);
 }
 
 .logo {
@@ -72,7 +75,6 @@ nav {
     height: 100%;
     text-decoration: none;
     color: var(--negro);
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -264,9 +266,13 @@ nav {
 }
 
 .text p {
-    text-align: left;
+    text-align: justify;
     color: var(--negro);
     margin-bottom: 0.5rem;
+}
+
+.button-free {
+    margin: 2rem 0;
 }
 
 /*--------------*/
@@ -314,7 +320,7 @@ nav {
 }
 
 .map {
-    height: 700px;
+    height: 600px;
     width: 47%;
     display: flex;
     justify-content: center;
@@ -384,6 +390,7 @@ nav {
 @media (max-width:700px){
     .api-instagram{
         height:350px;
+        margin-bottom: 20px;
     }
 }
 
