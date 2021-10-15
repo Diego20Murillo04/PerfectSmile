@@ -85,6 +85,20 @@ nav {
     height: auto;
     margin-top: 7vh;
 }
+.slidermobil{
+    display: none;
+}
+@media (max-width:600px){
+    .slider{
+        display: none;
+    }
+    .slidermobil{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 7vh;
+    }
+}
 
 .carousel {
     height: 100%;
