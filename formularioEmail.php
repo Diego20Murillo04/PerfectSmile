@@ -177,8 +177,6 @@
                             <textarea class="form-control border border-primary" cols="30" id="floatingTextarea2" name="mens" placeholder="Message" rows="10"></textarea>
                             <label for="floatingTextarea2">Please tell us, what would you like to improve on your smile?</label>
                         </div>
-                        <button class="btn btn-primary border-0" style="background: #202b70;" type="submit" name="enc">Send</button>
-
                         
                         <p>If you have difficulty submitting your online consultation, please email the photos of your teeth as shown on:</p>
                     </div>
@@ -222,10 +220,9 @@
                 
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-                            
-                        
+            <button class="btn btn-primary border-0" style="background: #202b70;" type="submit" name="enc">Send</button>
+            </div>        
          </form>
-         </div>
         </div>
 
         <!--  footer  -->
