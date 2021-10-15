@@ -63,7 +63,7 @@
     if (isset($_POST["enc"])) {
     
         $texto = "Nombre: " . $_POST['nombre'];
-        $para  = 'andrex.palop@gmail.com';
+        $para  = 'perfectsmileexperience@gmail.com';
     
         if (isset($_POST['c'])) {
     

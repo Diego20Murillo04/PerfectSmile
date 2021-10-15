@@ -11,7 +11,7 @@ $phone = $_POST["number"];
 
 $message = $_POST["message"];
 
-$para = "andrex.palop@gmail.com";
+$para = "perfectsmileexperience@gmail.com";
 
         $cabeceras  = "MIME-Version: 1.0\r\n";
         $cabeceras .= 'To: Perfect Smile <'.$para.">\r\n";
