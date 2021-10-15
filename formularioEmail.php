@@ -130,7 +130,7 @@
     }
     ?>
         
-            <form class="row g-3" action="" method="post" enctype="multipart/form-data">
+            <form class="row g-3 form" action="" method="post" enctype="multipart/form-data">
 
                 <div class="col-md-6 aside">
                     <div class="col">
