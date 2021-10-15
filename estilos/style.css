@@ -300,10 +300,11 @@ nav {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .formulario, .map {
-    height: 800px;
+    height:auto;
     width: 47%;
     display: flex;
     justify-content: center;
@@ -358,8 +359,9 @@ nav {
 }
 
 .imagenes img {
-    width: 70px;
-    height: 50px;
+    width: 160px;
+    height: 100px;
+    margin-bottom: 2px;
 }
 
 /*api de instagram*/
@@ -457,9 +459,10 @@ nav {
     height: 150px;
     text-align: left;
     background: var(--morado);
-    margin-top: 36px;
+    margin: 36px 0 20px 0;
     display: flex;
     align-items: center;
+    border-bottom: var(--blanco) solid 10px;
 }
 
 .titulo p{
@@ -479,6 +482,7 @@ nav {
     .titulo{
         height: 100px;
         margin-left: 50px;
+        
     }
     .titulo p {
         font-size: 1.3rem;
@@ -526,3 +530,14 @@ h2{
 /*   estilo formulario*/
 
 
+
+
+.contact h4 {
+    color: var(--morado);
+    font-size: 2rem;
+    margin: 10px 20px 0 0;
+}
+
+.textphotos{
+    margin: 0;
+}
