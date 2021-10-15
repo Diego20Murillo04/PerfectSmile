@@ -369,8 +369,8 @@ nav {
 }
 
 .imagenes img {
-    width: 160px;
-    height: 100px;
+    width: 120px;
+    height: 80px;
     margin-bottom: 2px;
 }
 
@@ -545,7 +545,6 @@ h2{
 .contact h4 {
     color: var(--morado);
     font-size: 2rem;
-    margin: 10px 20px 0 0;
 }
 
 .textphotos{
