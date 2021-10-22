@@ -22,7 +22,7 @@
 
     <body>
         <!--  Navbar -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
             <div class="container-fluid">
                 <a class="logo navbar-brand" href="index.html"><img src="./estilos/imagenes/logo/perfect-logo.png"
                         alt=""></a>
