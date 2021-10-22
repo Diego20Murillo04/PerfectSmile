@@ -398,15 +398,8 @@ nav {
 /*api de instagram*/
 
 .api-instagram {
+    max-height: max-content;
     width: 100%;
-    height: fit-content;
-}
-
-@media (max-width:700px){
-    .api-instagram{
-        height:350px;
-        margin-bottom: 20px;
-    }
 }
 
 /* footer*/

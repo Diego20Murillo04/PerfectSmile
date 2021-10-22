@@ -40,11 +40,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" href="./formularioEmail.php">Consultation
-                                    Online</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html#ContactUs">Contact Us</a>
+                                <a class="nav-link active" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Pay Deposit</a>
