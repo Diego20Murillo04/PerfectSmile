@@ -586,20 +586,31 @@ h2{
 .parent .grid {
     width: 350px;
     height: 350px;
-    background: var(--morado);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--negro);
     margin: 20px 0;
+    padding: 0;
+    
 }
 
-.grid .front {
-    text-align: center;
-    color: var(--blanco);
+
+
+.front img{
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+    
 }
 
+.grid:hover{
+    width: 370px;
+    height: 370px;
+    transition:ease-in-out all .1s;
+
+}
 
 
 .titulogallery p {
