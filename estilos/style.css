@@ -78,7 +78,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-}
+}   
 
 .slider {
     width: 100%;
@@ -590,7 +590,6 @@ h2{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 0 0 10px var(--negro);
     margin: 20px 0;
     padding: 0;
     
@@ -602,14 +601,7 @@ h2{
     height: 100%;
     width:100%;
     border-radius: 10px;
-    
-}
-
-.grid:hover{
-    width: 370px;
-    height: 370px;
-    transition:ease-in-out all .1s;
-
+    box-shadow: 0 0 10px var(--negro);
 }
 
 
