@@ -8,7 +8,6 @@
     <title>Perfect Smile</title>
     <script src="https://kit.fontawesome.com/0eaecc8c33.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../estilos/imagenes/logo/PERFECT-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./normalize/normalize.css">
     <link href="./estilos/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zcb5jci.css">
 
