@@ -22,37 +22,30 @@
 
     <body>
         <!--  Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-            <div class="container-fluid">
-                <a class="logo navbar-brand" href="index.html"><img src="./estilos/imagenes/logo/perfect-logo.png"
-                        alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <div class="offcanvas-title" id="offcanvasNavbarLabel"></div>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                            <a href="./gallery.html" class="nav-link">Gallery</a>
-                        </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pay Deposit</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./estilos/imagenes/logo/perfectsmilelogo.PNG" alt="Logo"></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-end flex-grow-1 pe-3">
+             
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" style="color: #1c2564;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" style="color: #1c2564;">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.paypal.com/paypalme/perfectsmileMDE" style="color: #1c2564;">Pay Deposit</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <div class="titulo">
             <p>Consultation Online</p>
         </div>
