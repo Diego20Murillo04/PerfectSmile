@@ -192,28 +192,28 @@
                         following models. All photographs are confidential.</p>
                     <div class="imagen1 col-md-6">
                         <img src="./estilos/img consultation/fondo1.jpg" alt="" srcset="">
-                        <input type="file" name="file[0]" id="">
+                        <input type="file" name="file[0]" id="" required>
                     </div>
                     <div class="imagen2 col-md-6">
                         <img src="./estilos/img consultation/fondo2.jpg" alt="" srcset="">
-                        <input type="file" name="file[1]" id="">
+                        <input type="file" name="file[1]" id="" required>
 
                     </div>
                     <div class="imagen3 col-md-6">
                         <img src="./estilos/img consultation/fondo3.jpg" alt="" srcset="">
-                        <input type="file" name="file[2]" id="">
+                        <input type="file" name="file[2]" id="" required>
                     </div>
                     <div class="imagen4 col-md-6">
                         <img src="./estilos/img consultation/fondo4.jpg" alt="" srcset="">
-                        <input type="file" name="file[3]" id="">
+                        <input type="file" name="file[3]" id="" required>
                     </div>
                     <div class="imagen5 col-md-6">
                         <img src="./estilos/img consultation/fondo5.jpg" alt="" srcset="">
-                        <input type="file" name="file[4]" id="">
+                        <input type="file" name="file[4]" id="" required>
                     </div>
                     <div class="imagen6 col-md-6">
                         <img src="./estilos/img consultation/fondo6.jpg" alt="" srcset="">
-                        <input type="file" name="file[5]" id="">
+                        <input type="file" name="file[5]" id="" required>
                     </div>
                 </div>
                 
